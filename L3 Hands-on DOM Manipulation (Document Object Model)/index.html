@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>L3 Hands-on: DOM Manipulation (Document Object Model)</title>
+</head>
+
+<body>
+    <p id="message">⚠ WARNING: Once you click, there's no going back. Proceed wisely. ⚠</p>
+    <button onclick="changeText()">Reveal Truth</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("message").innerText = "If Google goes down, I go down with it. 🫠💻";
+        }
+    </script>
+
+
+</body>
+
+</html>
